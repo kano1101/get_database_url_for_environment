@@ -1,0 +1,9 @@
+[package]
+name = "get_database_url_for_environment"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.71"
+dotenv = "0.15.0"
+establish_aws_mysql_sqlx = { git = "https://github.com/kano1101/establish_aws_mysql_sqlx.git" }
